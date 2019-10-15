@@ -21,7 +21,7 @@ namespace Microsoft.Xbox.Services
         private readonly XboxLiveAppConfiguration appConfig;
 
 #if WINDOWS_UWP
-        internal const string FlatCDllName = "Microsoft.Xbox.Services.140.UWP.C.dll";
+        internal const string FlatCDllName = "Microsoft.Xbox.Services.141.UWP.C.dll";
 #else
         // TODO This should change for other unity editor and XDK
         internal const string FlatCDllName = "TODO";
